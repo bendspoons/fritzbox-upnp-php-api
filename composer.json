@@ -1,0 +1,20 @@
+{
+    "name": "bendspoons/fritz.box-UPNP-PHP-API",
+    "type": "library",
+    "description": "A simple PHP Wrapper for fritz.box API",
+    "keywords": ["fritz.box", "fritzbox", "API"],
+    "homepage": "http://github.com/bendspoons/fritz.box-UPNP-PHP-API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominic Roesmann",
+            "email": "dominic@bendspoons.com",
+            "homepage": "https://bendspoons.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fritzbox\\":        "library/bendspoons/fritzbox/"
+        }
+    }
+}
