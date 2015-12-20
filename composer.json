@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "fritzbox\\":        "library/bendspoons/fritzbox/"
+            "fritzbox\\":        "bendspoons/fritz.box-UPNP-PHP-API/fritzbox/"
         }
     }
 }
