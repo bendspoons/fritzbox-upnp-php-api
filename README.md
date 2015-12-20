@@ -11,7 +11,7 @@ More detailed Informations, further development and way better documentation is 
 
 How to:
 
-Install via composer bendspoons/fritz.box-UPNP-PHP-API
+Install via composer "bendspoons/fritz.box-UPNP-PHP-API": "dev-master"
 
 Then in your index.php along with the autoloader.php, use the following (currently only these four are impleneted):
 
