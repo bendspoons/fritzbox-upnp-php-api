@@ -15,6 +15,7 @@ Install via composer bendspoons/fritz.box-UPNP-PHP-API
 
 Then in your index.php along with the autoloader.php, use the following (currently only these four are impleneted):
 
+```php
 <?php
 
 error_reporting(E_ALL);
@@ -38,6 +39,7 @@ $res->dumpResult(
 $res->dumpResult(
 	$res->getRequestXMLConfigOptions(new fritzbox\Service\Time)->getXMLConfigMethods()
 );
+
 $res->dumpResult(
 	$res->sendRequest(new fritzbox\Service\Time)->GetInfo()
 );
@@ -46,6 +48,7 @@ $res->dumpResult(
 $res->dumpResult(
 	$res->getRequestXMLConfigOptions(new fritzbox\Service\DeviceInfo)->getXMLConfigMethods()
 );
+
 $res->dumpResult(
 	$res->sendRequest(new fritzbox\Service\DeviceInfo)->GetInfo()
 );
@@ -54,8 +57,10 @@ $res->dumpResult(
 $res->dumpResult(
 	$res->getRequestXMLConfigOptions(new fritzbox\Service\WANCommonInterfaceConfig)->getXMLConfigMethods()
 );
+
 $res->dumpResult(
 	$res->sendRequest(new fritzbox\Service\WANCommonInterfaceConfig)->GetAddonInfos()
 );
 */
 ?>
+```

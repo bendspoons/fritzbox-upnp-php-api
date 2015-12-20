@@ -1,0 +1,527 @@
+SimpleXMLElement Object
+(
+    [specVersion] => SimpleXMLElement Object
+        (
+            [major] => 1
+            [minor] => 0
+        )
+
+    [device] => SimpleXMLElement Object
+        (
+            [deviceType] => urn:dslforum-org:device:InternetGatewayDevice:1
+            [friendlyName] => FRITZ!Box 7490
+            [manufacturer] => AVM
+            [manufacturerURL] => www.avm.de
+            [modelDescription] => FRITZ!Box 7490
+            [modelName] => FRITZ!Box 7490
+            [modelNumber] =>  - avm
+            [modelURL] => www.avm.de
+            [UDN] => uuid:739f2409-bccb-40e7-8e6c-3431C41717A6
+            [iconList] => SimpleXMLElement Object
+                (
+                    [icon] => SimpleXMLElement Object
+                        (
+                            [mimetype] => image/gif
+                            [width] => 118
+                            [height] => 119
+                            [depth] => 8
+                            [url] => /ligd.gif
+                        )
+
+                )
+
+            [serviceList] => SimpleXMLElement Object
+                (
+                    [service] => Array
+                        (
+                            [0] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:DeviceInfo:1
+                                    [serviceId] => urn:DeviceInfo-com:serviceId:DeviceInfo1
+                                    [controlURL] => /upnp/control/deviceinfo
+                                    [eventSubURL] => /upnp/control/deviceinfo
+                                    [SCPDURL] => /deviceinfoSCPD.xml
+                                )
+
+                            [1] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:DeviceConfig:1
+                                    [serviceId] => urn:DeviceConfig-com:serviceId:DeviceConfig1
+                                    [controlURL] => /upnp/control/deviceconfig
+                                    [eventSubURL] => /upnp/control/deviceconfig
+                                    [SCPDURL] => /deviceconfigSCPD.xml
+                                )
+
+                            [2] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:Layer3Forwarding:1
+                                    [serviceId] => urn:Layer3Forwarding-com:serviceId:Layer3Forwarding1
+                                    [controlURL] => /upnp/control/layer3forwarding
+                                    [eventSubURL] => /upnp/control/layer3forwarding
+                                    [SCPDURL] => /layer3forwardingSCPD.xml
+                                )
+
+                            [3] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:LANConfigSecurity:1
+                                    [serviceId] => urn:LANConfigSecurity-com:serviceId:LANConfigSecurity1
+                                    [controlURL] => /upnp/control/lanconfigsecurity
+                                    [eventSubURL] => /upnp/control/lanconfigsecurity
+                                    [SCPDURL] => /lanconfigsecuritySCPD.xml
+                                )
+
+                            [4] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:ManagementServer:1
+                                    [serviceId] => urn:ManagementServer-com:serviceId:ManagementServer1
+                                    [controlURL] => /upnp/control/mgmsrv
+                                    [eventSubURL] => /upnp/control/mgmsrv
+                                    [SCPDURL] => /mgmsrvSCPD.xml
+                                )
+
+                            [5] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:Time:1
+                                    [serviceId] => urn:Time-com:serviceId:Time1
+                                    [controlURL] => /upnp/control/time
+                                    [eventSubURL] => /upnp/control/time
+                                    [SCPDURL] => /timeSCPD.xml
+                                )
+
+                            [6] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:UserInterface:1
+                                    [serviceId] => urn:UserInterface-com:serviceId:UserInterface1
+                                    [controlURL] => /upnp/control/userif
+                                    [eventSubURL] => /upnp/control/userif
+                                    [SCPDURL] => /userifSCPD.xml
+                                )
+
+                            [7] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_VoIP:1
+                                    [serviceId] => urn:X_VoIP-com:serviceId:X_VoIP1
+                                    [controlURL] => /upnp/control/x_voip
+                                    [eventSubURL] => /upnp/control/x_voip
+                                    [SCPDURL] => /x_voipSCPD.xml
+                                )
+
+                            [8] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_Storage:1
+                                    [serviceId] => urn:X_AVM-DE_Storage-com:serviceId:X_AVM-DE_Storage1
+                                    [controlURL] => /upnp/control/x_storage
+                                    [eventSubURL] => /upnp/control/x_storage
+                                    [SCPDURL] => /x_storageSCPD.xml
+                                )
+
+                            [9] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_OnTel:1
+                                    [serviceId] => urn:X_AVM-DE_OnTel-com:serviceId:X_AVM-DE_OnTel1
+                                    [controlURL] => /upnp/control/x_contact
+                                    [eventSubURL] => /upnp/control/x_contact
+                                    [SCPDURL] => /x_contactSCPD.xml
+                                )
+
+                            [10] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_WebDAVClient:1
+                                    [serviceId] => urn:X_AVM-DE_WebDAV-com:serviceId:X_AVM-DE_WebDAVClient1
+                                    [controlURL] => /upnp/control/x_webdav
+                                    [eventSubURL] => /upnp/control/x_webdav
+                                    [SCPDURL] => /x_webdavSCPD.xml
+                                )
+
+                            [11] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_UPnP:1
+                                    [serviceId] => urn:X_AVM-DE_UPnP-com:serviceId:X_AVM-DE_UPnP1
+                                    [controlURL] => /upnp/control/x_upnp
+                                    [eventSubURL] => /upnp/control/x_upnp
+                                    [SCPDURL] => /x_upnpSCPD.xml
+                                )
+
+                            [12] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_RemoteAccess:1
+                                    [serviceId] => urn:X_AVM-DE_RemoteAccess-com:serviceId:X_AVM-DE_RemoteAccess1
+                                    [controlURL] => /upnp/control/x_remote
+                                    [eventSubURL] => /upnp/control/x_remote
+                                    [SCPDURL] => /x_remoteSCPD.xml
+                                )
+
+                            [13] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_MyFritz:1
+                                    [serviceId] => urn:X_AVM-DE_MyFritz-com:serviceId:X_AVM-DE_MyFritz1
+                                    [controlURL] => /upnp/control/x_myfritz
+                                    [eventSubURL] => /upnp/control/x_myfritz
+                                    [SCPDURL] => /x_myfritzSCPD.xml
+                                )
+
+                            [14] => SimpleXMLElement Object
+                                (
+                                    [serviceType] => urn:dslforum-org:service:X_AVM-DE_TAM:1
+                                    [serviceId] => urn:X_AVM-DE_TAM-com:serviceId:X_AVM-DE_TAM1
+                                    [controlURL] => /upnp/control/x_tam
+                                    [eventSubURL] => /upnp/control/x_tam
+                                    [SCPDURL] => /x_tamSCPD.xml
+                                )
+
+                        )
+
+                )
+
+            [deviceList] => SimpleXMLElement Object
+                (
+                    [device] => Array
+                        (
+                            [0] => SimpleXMLElement Object
+                                (
+                                    [deviceType] => urn:dslforum-org:device:LANDevice:1
+                                    [friendlyName] => LANDevice - FRITZ!Box 7490
+                                    [manufacturer] => AVM
+                                    [manufacturerURL] => www.avm.de
+                                    [modelDescription] => LANDevice - FRITZ!Box 7490
+                                    [modelName] => LANDevice - FRITZ!Box 7490
+                                    [modelNumber] =>  - avm
+                                    [modelURL] => www.avm.de
+                                    [UDN] => uuid:75802409-bccb-40e7-8e6b-3431C41717A6
+                                    [UPC] => AVM TR-064
+                                    [serviceList] => SimpleXMLElement Object
+                                        (
+                                            [service] => Array
+                                                (
+                                                    [0] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:WLANConfiguration:1
+                                                            [serviceId] => urn:WLANConfiguration-com:serviceId:WLANConfiguration1
+                                                            [controlURL] => /upnp/control/wlanconfig1
+                                                            [eventSubURL] => /upnp/control/wlanconfig1
+                                                            [SCPDURL] => /wlanconfigSCPD.xml
+                                                        )
+
+                                                    [1] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:WLANConfiguration:2
+                                                            [serviceId] => urn:WLANConfiguration-com:serviceId:WLANConfiguration2
+                                                            [controlURL] => /upnp/control/wlanconfig2
+                                                            [eventSubURL] => /upnp/control/wlanconfig2
+                                                            [SCPDURL] => /wlanconfigSCPD.xml
+                                                        )
+
+                                                    [2] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:WLANConfiguration:3
+                                                            [serviceId] => urn:WLANConfiguration-com:serviceId:WLANConfiguration3
+                                                            [controlURL] => /upnp/control/wlanconfig3
+                                                            [eventSubURL] => /upnp/control/wlanconfig3
+                                                            [SCPDURL] => /wlanconfigSCPD.xml
+                                                        )
+
+                                                    [3] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:Hosts:1
+                                                            [serviceId] => urn:LanDeviceHosts-com:serviceId:Hosts1
+                                                            [controlURL] => /upnp/control/hosts
+                                                            [eventSubURL] => /upnp/control/hosts
+                                                            [SCPDURL] => /hostsSCPD.xml
+                                                        )
+
+                                                    [4] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:LANEthernetInterfaceConfig:1
+                                                            [serviceId] => urn:LANEthernetIfCfg-com:serviceId:LANEthernetInterfaceConfig1
+                                                            [controlURL] => /upnp/control/lanethernetifcfg
+                                                            [eventSubURL] => /upnp/control/lanethernetifcfg
+                                                            [SCPDURL] => /ethifconfigSCPD.xml
+                                                        )
+
+                                                    [5] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:LANHostConfigManagement:1
+                                                            [serviceId] => urn:LANHCfgMgm-com:serviceId:LANHostConfigManagement1
+                                                            [controlURL] => /upnp/control/lanhostconfigmgm
+                                                            [eventSubURL] => /upnp/control/lanhostconfigmgm
+                                                            [SCPDURL] => /lanhostconfigmgmSCPD.xml
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => SimpleXMLElement Object
+                                (
+                                    [deviceType] => urn:dslforum-org:device:WANDevice:1
+                                    [friendlyName] => WANDevice - FRITZ!Box 7490
+                                    [manufacturer] => AVM
+                                    [manufacturerURL] => www.avm.de
+                                    [modelDescription] => WANDevice - FRITZ!Box 7490
+                                    [modelName] => WANDevice - FRITZ!Box 7490
+                                    [modelNumber] =>  - avm
+                                    [modelURL] => www.avm.de
+                                    [UDN] => uuid:75802409-bccb-40e7-8e6a-3431C41717A6
+                                    [UPC] => AVM TR-064
+                                    [serviceList] => SimpleXMLElement Object
+                                        (
+                                            [service] => Array
+                                                (
+                                                    [0] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:WANCommonInterfaceConfig:1
+                                                            [serviceId] => urn:WANCIfConfig-com:serviceId:WANCommonInterfaceConfig1
+                                                            [controlURL] => /upnp/control/wancommonifconfig1
+                                                            [eventSubURL] => /upnp/control/wancommonifconfig1
+                                                            [SCPDURL] => /wancommonifconfigSCPD.xml
+                                                        )
+
+                                                    [1] => SimpleXMLElement Object
+                                                        (
+                                                            [serviceType] => urn:dslforum-org:service:WANDSLInterfaceConfig:1
+                                                            [serviceId] => urn:WANDSLIfConfig-com:serviceId:WANDSLInterfaceConfig1
+                                                            [controlURL] => /upnp/control/wandslifconfig1
+                                                            [eventSubURL] => /upnp/control/wandslifconfig1
+                                                            [SCPDURL] => /wandslifconfigSCPD.xml
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [deviceList] => SimpleXMLElement Object
+                                        (
+                                            [device] => SimpleXMLElement Object
+                                                (
+                                                    [deviceType] => urn:dslforum-org:device:WANConnectionDevice:1
+                                                    [friendlyName] => WANConnectionDevice - FRITZ!Box 7490
+                                                    [manufacturer] => AVM
+                                                    [manufacturerURL] => www.avm.de
+                                                    [modelDescription] => WANConnectionDevice - FRITZ!Box 7490
+                                                    [modelName] => WANConnectionDevice - FRITZ!Box 7490
+                                                    [modelNumber] =>  - avm
+                                                    [modelURL] => www.avm.de
+                                                    [UDN] => uuid:75802409-bccb-40e7-8e69-3431C41717A6
+                                                    [UPC] => AVM TR-064
+                                                    [serviceList] => SimpleXMLElement Object
+                                                        (
+                                                            [service] => Array
+                                                                (
+                                                                    [0] => SimpleXMLElement Object
+                                                                        (
+                                                                            [serviceType] => urn:dslforum-org:service:WANDSLLinkConfig:1
+                                                                            [serviceId] => urn:WANDSLLinkConfig-com:serviceId:WANDSLLinkConfig1
+                                                                            [controlURL] => /upnp/control/wandsllinkconfig1
+                                                                            [eventSubURL] => /upnp/control/wandsllinkconfig1
+                                                                            [SCPDURL] => /wandsllinkconfigSCPD.xml
+                                                                        )
+
+                                                                    [1] => SimpleXMLElement Object
+                                                                        (
+                                                                            [serviceType] => urn:dslforum-org:service:WANEthernetLinkConfig:1
+                                                                            [serviceId] => urn:WANEthernetLinkConfig-com:serviceId:WANEthernetLinkConfig1
+                                                                            [controlURL] => /upnp/control/wanethlinkconfig1
+                                                                            [eventSubURL] => /upnp/control/wanethlinkconfig1
+                                                                            [SCPDURL] => /wanethlinkconfigSCPD.xml
+                                                                        )
+
+                                                                    [2] => SimpleXMLElement Object
+                                                                        (
+                                                                            [serviceType] => urn:dslforum-org:service:WANPPPConnection:1
+                                                                            [serviceId] => urn:WANPPPConnection-com:serviceId:WANPPPConnection1
+                                                                            [controlURL] => /upnp/control/wanpppconn1
+                                                                            [eventSubURL] => /upnp/control/wanpppconn1
+                                                                            [SCPDURL] => /wanpppconnSCPD.xml
+                                                                        )
+
+                                                                    [3] => SimpleXMLElement Object
+                                                                        (
+                                                                            [serviceType] => urn:dslforum-org:service:WANIPConnection:1
+                                                                            [serviceId] => urn:WANIPConnection-com:serviceId:WANIPConnection1
+                                                                            [controlURL] => /upnp/control/wanipconnection1
+                                                                            [eventSubURL] => /upnp/control/wanipconnection1
+                                                                            [SCPDURL] => /wanipconnSCPD.xml
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [presentationURL] => http://fritz.box
+        )
+
+)
+SimpleXMLElement Object
+(
+    [specVersion] => SimpleXMLElement Object
+        (
+            [major] => 1
+            [minor] => 0
+        )
+
+    [device] => SimpleXMLElement Object
+        (
+            [deviceType] => urn:schemas-upnp-org:device:InternetGatewayDevice:1
+            [friendlyName] => FRITZ!Box 7490
+            [manufacturer] => AVM Berlin
+            [manufacturerURL] => http://www.avm.de
+            [modelDescription] => FRITZ!Box 7490
+            [modelName] => FRITZ!Box 7490
+            [modelNumber] => avm
+            [modelURL] => http://www.avm.de
+            [UDN] => uuid:75802409-bccb-40e7-8e6c-3431C41717A6
+            [iconList] => SimpleXMLElement Object
+                (
+                    [icon] => SimpleXMLElement Object
+                        (
+                            [mimetype] => image/gif
+                            [width] => 118
+                            [height] => 119
+                            [depth] => 8
+                            [url] => /ligd.gif
+                        )
+
+                )
+
+            [serviceList] => SimpleXMLElement Object
+                (
+                    [service] => SimpleXMLElement Object
+                        (
+                            [serviceType] => urn:schemas-any-com:service:Any:1
+                            [serviceId] => urn:any-com:serviceId:any1
+                            [controlURL] => /igdupnp/control/any
+                            [eventSubURL] => /igdupnp/control/any
+                            [SCPDURL] => /any.xml
+                        )
+
+                )
+
+            [deviceList] => SimpleXMLElement Object
+                (
+                    [device] => SimpleXMLElement Object
+                        (
+                            [deviceType] => urn:schemas-upnp-org:device:WANDevice:1
+                            [friendlyName] => WANDevice - FRITZ!Box 7490
+                            [manufacturer] => AVM Berlin
+                            [manufacturerURL] => www.avm.de
+                            [modelDescription] => WANDevice - FRITZ!Box 7490
+                            [modelName] => WANDevice - FRITZ!Box 7490
+                            [modelNumber] => avm
+                            [modelURL] => www.avm.de
+                            [UDN] => uuid:75802409-bccb-40e7-8e6b-3431C41717A6
+                            [UPC] => AVM IGD
+                            [serviceList] => SimpleXMLElement Object
+                                (
+                                    [service] => SimpleXMLElement Object
+                                        (
+                                            [serviceType] => urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+                                            [serviceId] => urn:upnp-org:serviceId:WANCommonIFC1
+                                            [controlURL] => /igdupnp/control/WANCommonIFC1
+                                            [eventSubURL] => /igdupnp/control/WANCommonIFC1
+                                            [SCPDURL] => /igdicfgSCPD.xml
+                                        )
+
+                                )
+
+                            [deviceList] => SimpleXMLElement Object
+                                (
+                                    [device] => SimpleXMLElement Object
+                                        (
+                                            [deviceType] => urn:schemas-upnp-org:device:WANConnectionDevice:1
+                                            [friendlyName] => WANConnectionDevice - FRITZ!Box 7490
+                                            [manufacturer] => AVM Berlin
+                                            [manufacturerURL] => www.avm.de
+                                            [modelDescription] => WANConnectionDevice - FRITZ!Box 7490
+                                            [modelName] => WANConnectionDevice - FRITZ!Box 7490
+                                            [modelNumber] => avm
+                                            [modelURL] => www.avm.de
+                                            [UDN] => uuid:75802409-bccb-40e7-8e6a-3431C41717A6
+                                            [UPC] => AVM IGD
+                                            [serviceList] => SimpleXMLElement Object
+                                                (
+                                                    [service] => Array
+                                                        (
+                                                            [0] => SimpleXMLElement Object
+                                                                (
+                                                                    [serviceType] => urn:schemas-upnp-org:service:WANDSLLinkConfig:1
+                                                                    [serviceId] => urn:upnp-org:serviceId:WANDSLLinkC1
+                                                                    [controlURL] => /igdupnp/control/WANDSLLinkC1
+                                                                    [eventSubURL] => /igdupnp/control/WANDSLLinkC1
+                                                                    [SCPDURL] => /igddslSCPD.xml
+                                                                )
+
+                                                            [1] => SimpleXMLElement Object
+                                                                (
+                                                                    [serviceType] => urn:schemas-upnp-org:service:WANIPConnection:1
+                                                                    [serviceId] => urn:upnp-org:serviceId:WANIPConn1
+                                                                    [controlURL] => /igdupnp/control/WANIPConn1
+                                                                    [eventSubURL] => /igdupnp/control/WANIPConn1
+                                                                    [SCPDURL] => /igdconnSCPD.xml
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [presentationURL] => http://fritz.box
+        )
+
+)
+SimpleXMLElement Object
+(
+    [specVersion] => SimpleXMLElement Object
+        (
+            [major] => 1
+            [minor] => 0
+        )
+
+    [device] => SimpleXMLElement Object
+        (
+            [deviceType] => urn:schemas-upnp-org:device:USB:1
+            [friendlyName] => FRITZ!Box USB
+            [manufacturer] => AVM Berlin
+            [manufacturerURL] => http://www.avm.de
+            [modelDescription] => AVM FRITZ!Box
+            [modelName] => AVM FRITZ!Box
+            [modelNumber] => 1
+            [modelURL] => http://www.avm.de
+            [UDN] => uuid:85802409-bccb-40e7-8e6c-fa095ecce13e-010203080675
+            [UPC] => AVM USB
+            [serviceList] => SimpleXMLElement Object
+                (
+                    [service] => SimpleXMLElement Object
+                        (
+                            [serviceType] => urn:schemas-upnp-org:service:USBInfo:1
+                            [serviceId] => urn:upnp-org:serviceId:USBInfo
+                            [controlURL] => /upnp/control/USBInfo
+                            [eventSubURL] => /upnp/control/USBInfo
+                            [SCPDURL] => /usbSCPD.xml
+                        )
+
+                )
+
+            [presentationURL] => http://fritz.box
+        )
+
+)
+---
